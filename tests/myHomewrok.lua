@@ -143,6 +143,9 @@ for _,val in pairs(pickAndChooser(choosingArray,evenPred)) do
 end
 
 
-
-
+newRay = {}
+  for ind,val in pairs(myray) do
+      newRay[val] = ind
+  end
+return newRay
 

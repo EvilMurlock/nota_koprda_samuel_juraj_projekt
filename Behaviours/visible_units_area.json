@@ -1,0 +1,74 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"POMYithgIJ5ui5ZqjIGnHx7cx3JYPVaB": {
+			"height": 94,
+			"title": "store",
+			"width": 495,
+			"x": 522,
+			"y": 2
+		},
+		"fVtwrrurk7JaDDHbPN80jAGxj3FR9oBJ": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 281,
+			"y": -24
+		},
+		"oO5rdY7HwZwp5Z9CgO9mVv8oSZwYX3z6": {
+			"height": 94,
+			"title": "store",
+			"width": 176,
+			"x": 520,
+			"y": -117
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "oO5rdY7HwZwp5Z9CgO9mVv8oSZwYX3z6",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "p"
+			}, {
+				"name": "value",
+				"value": "core.Position()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "POMYithgIJ5ui5ZqjIGnHx7cx3JYPVaB",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "x"
+			}, {
+				"name": "value",
+				"value": "{Spring.GetUnitsInCylinder(p.x,p.z,500, Spring.GetMyTeamID())}"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		} ],
+		"id": "fVtwrrurk7JaDDHbPN80jAGxj3FR9oBJ",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
