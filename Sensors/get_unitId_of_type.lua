@@ -26,7 +26,7 @@ return function(unitTable, unitType)
     local chosenUnitDefId = UnitDefNames[unitType]
   --  return chosenUnitDefId
 --end
-    Spring.Echo(chosenUnitDefId.id)
+    --Spring.Echo(chosenUnitDefId.id)
     for i=1, #unitTable do
         unitId = unitTable[i]
         

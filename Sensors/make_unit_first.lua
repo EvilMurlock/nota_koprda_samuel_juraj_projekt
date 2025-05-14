@@ -19,7 +19,7 @@ end
 -- @description return table with swaped values
 -- @argument listOfUnits [array], newFirstId [int]
 return function(unitTable, newFirstId)
-    Spring.Echo("RUNNING THNING")
+    --Spring.Echo("RUNNING THNING")
 
     newRay = {}
     local addition = 1
@@ -32,7 +32,7 @@ return function(unitTable, newFirstId)
             newRay[i+addition] = unitId
         end
     end
-    Spring.Echo("spiting newRay",newRay)
+    --Spring.Echo("spiting newRay",newRay)
     --for ind,val in pairs(unitTable) do
     --    newRay[val] = ind
     --end
