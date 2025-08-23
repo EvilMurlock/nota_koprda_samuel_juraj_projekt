@@ -2,6 +2,10 @@
 	"core": "0.8.x",
 	"nota_common": "0.3.4",
 	"formation": "0.3.x",
-	"nota_cihlkl_ctp2": "???",
-	"nota_akenzheb_ctp2": "???"
+	"nota_cihlkl_ctp2": "?.?.?",
+	"nota_akenzheb_ctp2": "?.?.?",
+	"nota_naimad1_ttdr2":	"1.0",
+	"nota_naimad1_ctp2":	"0.2.1",
+	"nota_naimad1_swampdota":  "2.0",
+	"nota_kahlan_ttdr":  "?.?.?"
 }
