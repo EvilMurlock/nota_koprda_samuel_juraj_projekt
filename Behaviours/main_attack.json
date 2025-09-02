@@ -1,0 +1,320 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"33BjGUgFTF0vARmIjvCBQBf3nKsLe0nS": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 783,
+			"y": -128
+		},
+		"79kwv5C2UZN0o5mlYRMSzBqBzBOj009G": {
+			"height": 94,
+			"title": "store",
+			"width": 624,
+			"x": 936,
+			"y": 17
+		},
+		"9Zd2nNkuEWc46YalsGjkR0nqhECroTT5": {
+			"height": 128,
+			"title": "nota_naimad1_swampdota.moveUnitGroupAndForget",
+			"width": 404,
+			"x": 1559,
+			"y": 751
+		},
+		"AE4Wtr80RDrytJTZqclKTuSBSU1cqfp5": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 611,
+			"y": 111
+		},
+		"AOTjKKTs9krgijxslY8naoP3ORts7zuI": {
+			"height": 59,
+			"title": "sequence",
+			"width": 143,
+			"x": 1343,
+			"y": 658
+		},
+		"DYLMOU0bS5qqZcwfy0QpQn67zPlSMSAC": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 673,
+			"y": 482
+		},
+		"RGsFhwBiIJ88vIbSJvcqnblaaPaMOtJd": {
+			"height": 92,
+			"title": "store",
+			"width": 380,
+			"x": 938,
+			"y": 109
+		},
+		"Xi7UdriUB6zCK7czEgVTmyEsbIJSlldi": {
+			"height": 72,
+			"title": "nota_koprda_samuel_juraj_projekt.BuyUnit",
+			"width": 334,
+			"x": 1071,
+			"y": -122
+		},
+		"Z0S5MFDGw7oyl4ncqjrKKjum21WeJoAL": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 600,
+			"y": -118
+		},
+		"cKg1LsgrL5hkxRrhGjuCe6S7Sa3gdqOo": {
+			"height": 94,
+			"title": "store",
+			"width": 648,
+			"x": 1564,
+			"y": 545
+		},
+		"l9v8uggqmYvpLAKUl6ACcwGgFDPkX7pZ": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 207,
+			"y": 101
+		},
+		"o9jEe1Q5G6bnMyUdvzpZGrSoZdvmvDI4": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 457,
+			"y": 113
+		},
+		"p4kTJB6JI4PmcxXKrUXsEMs51VcEj5nz": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 369,
+			"x": 885,
+			"y": 474
+		},
+		"poL1xEfeL4Cd9oqFx0g37UXP6h2IXo79": {
+			"height": 92,
+			"title": "store",
+			"width": 392,
+			"x": 938,
+			"y": 202
+		},
+		"qhK0m4DYPrpCL7Ahz3tewHhNqRDiU6AX": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 511,
+			"y": 479
+		},
+		"vEfbqmjcUr3zkGuzhuJeYMvxCXhrzJ0v": {
+			"height": 94,
+			"title": "store",
+			"width": 513,
+			"x": 928,
+			"y": 347
+		},
+		"ycNffx8bjrnEUmqaS14hDHtVy8dvtize": {
+			"height": 108,
+			"title": "store",
+			"width": 714,
+			"x": 1562,
+			"y": 641
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "Xi7UdriUB6zCK7czEgVTmyEsbIJSlldi",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "unitName",
+						"value": "\"armmav\""
+					}, {
+						"name": "scriptName",
+						"value": "nota_koprda_samuel_juraj_projekt.BuyUnit"
+					} ],
+					"scriptName": "nota_koprda_samuel_juraj_projekt.BuyUnit"
+				} ],
+				"id": "33BjGUgFTF0vARmIjvCBQBf3nKsLe0nS",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "global.metal > 401"
+				}, {
+					"name": "repeat",
+					"value": "false"
+				} ]
+			} ],
+			"id": "Z0S5MFDGw7oyl4ncqjrKKjum21WeJoAL",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "79kwv5C2UZN0o5mlYRMSzBqBzBOj009G",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "currentTargetID"
+					}, {
+						"name": "value",
+						"value": "Sensors.nota_naimad1_swampdota.GetNearestEnemyTower(global.enemyTargets)"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "RGsFhwBiIJ88vIbSJvcqnblaaPaMOtJd",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "currentTargetPosition"
+					}, {
+						"name": "value",
+						"value": "global.enemyTargets[currentTargetID].position"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "poL1xEfeL4Cd9oqFx0g37UXP6h2IXo79",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "currentTargetName"
+					}, {
+						"name": "value",
+						"value": "global.enemyTargets[currentTargetID].unitName"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				} ],
+				"id": "AE4Wtr80RDrytJTZqclKTuSBSU1cqfp5",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "o9jEe1Q5G6bnMyUdvzpZGrSoZdvmvDI4",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "vEfbqmjcUr3zkGuzhuJeYMvxCXhrzJ0v",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "maverics"
+					}, {
+						"name": "value",
+						"value": "Sensors.nota_naimad1_swampdota.GetUnitTypeGroup(\"armmav\")"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "cKg1LsgrL5hkxRrhGjuCe6S7Sa3gdqOo",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "nearbyTarget"
+							}, {
+								"name": "value",
+								"value": "Vec3(currentTargetPosition.x-800, currentTargetPosition.y, currentTargetPosition.z+800)"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						}, {
+							"children": [],
+							"id": "ycNffx8bjrnEUmqaS14hDHtVy8dvtize",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "formTargets"
+							}, {
+								"name": "value",
+								"value": "Sensors.nota_naimad1_swampdota.CreateLineMiddleTargets(maverics, 85, nearbyTarget)"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						}, {
+							"children": [],
+							"id": "9Zd2nNkuEWc46YalsGjkR0nqhECroTT5",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "group",
+								"value": "maverics"
+							}, {
+								"name": "positions",
+								"value": "formTargets"
+							}, {
+								"name": "fight",
+								"value": "true"
+							}, {
+								"name": "reclaim",
+								"value": "false"
+							}, {
+								"name": "scriptName",
+								"value": "nota_naimad1_swampdota.moveUnitGroupAndForget"
+							} ],
+							"scriptName": "nota_naimad1_swampdota.moveUnitGroupAndForget"
+						} ],
+						"id": "AOTjKKTs9krgijxslY8naoP3ORts7zuI",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "p4kTJB6JI4PmcxXKrUXsEMs51VcEj5nz",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "#maverics >= 11 or currentTargetName == \"corfus\""
+					}, {
+						"name": "repeat",
+						"value": "false"
+					} ]
+				} ],
+				"id": "DYLMOU0bS5qqZcwfy0QpQn67zPlSMSAC",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "qhK0m4DYPrpCL7Ahz3tewHhNqRDiU6AX",
+			"nodeType": "repeat",
+			"parameters": []
+		} ],
+		"id": "l9v8uggqmYvpLAKUl6ACcwGgFDPkX7pZ",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	}
+}

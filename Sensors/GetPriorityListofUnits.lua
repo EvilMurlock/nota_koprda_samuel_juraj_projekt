@@ -31,7 +31,7 @@ function tablelength(T)
 end
 
 -- @description returns list of units ordered by priorities (number of points)
-return function(myUnits)
+ function(myUnits)
 	local orderedUnits = {}
 	local unitFilter = Sensors.core.FilterUnitsByCategory
 

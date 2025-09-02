@@ -1,0 +1,359 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"9FNO5942kqYZRa3DH2K0ZB0LNSsIelJM": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 829,
+			"y": 27
+		},
+		"9abFVISDCJdBlBczJvKR7LkbfXee6AaL": {
+			"height": 94,
+			"title": "store",
+			"width": 347,
+			"x": 413,
+			"y": -306
+		},
+		"C21X3K82wTBvF1BQK3ZmJVPM5ugJmQvZ": {
+			"height": 92,
+			"title": "store",
+			"width": 208,
+			"x": 1227,
+			"y": 71
+		},
+		"FNBLhWoVoeqQy2ZQQwGeieOVfhSwdGzP": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 499,
+			"y": 7
+		},
+		"QQXoFXOrcHgQjNDMqpOPHY1bhiFUMHM5": {
+			"height": 72,
+			"title": "nota_common.manualMissionEnd",
+			"width": 336,
+			"x": 1231,
+			"y": 699
+		},
+		"SzAzTBDVZcXdqkXSO2mJ6Cf8P6fz4oHb": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 197,
+			"y": 9
+		},
+		"Y9RWJE7svzeR0aGpLmslWAdw4AnbiEZx": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 939,
+			"y": 699
+		},
+		"YL1wdZk8qqlCTHc5qCkctP0L6hKOk3q2": {
+			"height": 92,
+			"title": "store",
+			"width": 222,
+			"x": 413,
+			"y": -133
+		},
+		"bJzIsH9Jfuh8WpXt9IIAZiDHjJhNpzSU": {
+			"height": 110,
+			"title": "reclamation",
+			"width": 472,
+			"x": 864,
+			"y": 407
+		},
+		"bbfYcdD1u1CtSICtaXQdZwqraoHMfazU": {
+			"height": 94,
+			"title": "store",
+			"width": 198,
+			"x": 413,
+			"y": -485
+		},
+		"cp4X4R8GoefY0cjHKaQvDRV4ylFEg9qM": {
+			"height": 92,
+			"title": "store",
+			"width": 220,
+			"x": 413,
+			"y": -229
+		},
+		"ilh45KDOOOLFf6yg8wRmS6exmIMXfumN": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1018,
+			"y": 21
+		},
+		"kMk7jPhRXDSlBpgl2833XiwLIIXSNnHR": {
+			"height": 95,
+			"title": "store",
+			"width": 714,
+			"x": 1222,
+			"y": -17
+		},
+		"oYVSqr5KGKrk3sYxhMchdPx6KPLpGTIS": {
+			"height": 94,
+			"title": "store",
+			"width": 347,
+			"x": 1056,
+			"y": 266
+		},
+		"owPczxjU293YQfYuv9PEPVmEcca4sWez": {
+			"height": 94,
+			"title": "store",
+			"width": 565,
+			"x": 412,
+			"y": -396
+		},
+		"pkQukPRSX9ioZjb2BDBbgn8qOLzpuN7D": {
+			"height": 110,
+			"title": "reference",
+			"width": 378,
+			"x": 870,
+			"y": 559
+		},
+		"qMTnDOR9UnegSzc3l6S0Ry9iPuIRXRR9": {
+			"height": 60,
+			"title": "repeat",
+			"width": 150,
+			"x": 846,
+			"y": 278
+		},
+		"taXJ0OOdakN3kMJ7kRp2LFdRitbIEl4V": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 787,
+			"y": 711
+		},
+		"usB62FZbaRkbDGEMwNv17yMYAZeiOub9": {
+			"height": 92,
+			"title": "store",
+			"width": 205,
+			"x": 1230,
+			"y": 160
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "bbfYcdD1u1CtSICtaXQdZwqraoHMfazU",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "global.info"
+			}, {
+				"name": "value",
+				"value": "core.MissionInfo()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "owPczxjU293YQfYuv9PEPVmEcca4sWez",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "global.corridorsPoints"
+			}, {
+				"name": "value",
+				"value": "Sensors.nota_naimad1_swampdota.GetCorridorPoints(global.info.corridors)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "9abFVISDCJdBlBczJvKR7LkbfXee6AaL",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "global.metal"
+			}, {
+				"name": "value",
+				"value": "Sensors.nota_mestek_labs.GetMyMetal()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "cp4X4R8GoefY0cjHKaQvDRV4ylFEg9qM",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "global.allSeenTargets"
+			}, {
+				"name": "value",
+				"value": "{}"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "YL1wdZk8qqlCTHc5qCkctP0L6hKOk3q2",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "global.enemyTargets"
+			}, {
+				"name": "value",
+				"value": "{}"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "kMk7jPhRXDSlBpgl2833XiwLIIXSNnHR",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "tempTowers"
+						}, {
+							"name": "value",
+							"value": "Sensors.nota_naimad1_swampdota.GetEnemyTowers(global.allSeenTargets)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "C21X3K82wTBvF1BQK3ZmJVPM5ugJmQvZ",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "global.allSeenTargets"
+						}, {
+							"name": "value",
+							"value": "tempTowers[1]"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "usB62FZbaRkbDGEMwNv17yMYAZeiOub9",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "global.enemyTargets"
+						}, {
+							"name": "value",
+							"value": "tempTowers[2]"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					} ],
+					"id": "ilh45KDOOOLFf6yg8wRmS6exmIMXfumN",
+					"nodeType": "sequence",
+					"parameters": []
+				} ],
+				"id": "9FNO5942kqYZRa3DH2K0ZB0LNSsIelJM",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "oYVSqr5KGKrk3sYxhMchdPx6KPLpGTIS",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "global.metal"
+					}, {
+						"name": "value",
+						"value": "Sensors.nota_mestek_labs.GetMyMetal()"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				} ],
+				"id": "qMTnDOR9UnegSzc3l6S0Ry9iPuIRXRR9",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [],
+				"id": "bJzIsH9Jfuh8WpXt9IIAZiDHjJhNpzSU",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_koprda_samuel_juraj_projekt.reclaim_manager"
+				} ],
+				"referenceInputs": [],
+				"referenceOutputs": []
+			}, {
+				"children": [],
+				"id": "pkQukPRSX9ioZjb2BDBbgn8qOLzpuN7D",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_koprda_samuel_juraj_projekt.main_attack"
+				} ],
+				"referenceInputs": [],
+				"referenceOutputs": []
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "QQXoFXOrcHgQjNDMqpOPHY1bhiFUMHM5",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "scriptName",
+							"value": "nota_common.manualMissionEnd"
+						} ],
+						"scriptName": "nota_common.manualMissionEnd"
+					} ],
+					"id": "Y9RWJE7svzeR0aGpLmslWAdw4AnbiEZx",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "false"
+					}, {
+						"name": "repeat",
+						"value": "false"
+					} ]
+				} ],
+				"id": "taXJ0OOdakN3kMJ7kRp2LFdRitbIEl4V",
+				"nodeType": "repeat",
+				"parameters": []
+			} ],
+			"id": "FNBLhWoVoeqQy2ZQQwGeieOVfhSwdGzP",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		} ],
+		"id": "SzAzTBDVZcXdqkXSO2mJ6Cf8P6fz4oHb",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
