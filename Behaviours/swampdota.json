@@ -9,6 +9,13 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
+		"5cZiy4ImrjxA1gi6X18KPeiVmlf1vFYc": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 976,
+			"y": -264
+		},
 		"9FNO5942kqYZRa3DH2K0ZB0LNSsIelJM": {
 			"height": 60,
 			"title": "repeat",
@@ -30,12 +37,26 @@
 			"x": 1227,
 			"y": 71
 		},
+		"F8Do3NBKUgg4TV4neAvgE6zrnhPLyPb6": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 752,
+			"y": -134
+		},
 		"FNBLhWoVoeqQy2ZQQwGeieOVfhSwdGzP": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
 			"x": 499,
 			"y": 7
+		},
+		"GWqGPYelOjyDAPc0ypujpXDAfGx0Ey5Z": {
+			"height": 130,
+			"title": "nota_naimad1_ctp2.moveUnitGroupToPositions",
+			"width": 385,
+			"x": 976,
+			"y": -164
 		},
 		"QQXoFXOrcHgQjNDMqpOPHY1bhiFUMHM5": {
 			"height": 72,
@@ -141,6 +162,13 @@
 			"width": 205,
 			"x": 1230,
 			"y": 160
+		},
+		"xiMqxR4QRC5p1yYPKrTMidz4xIyfVXcC": {
+			"height": 94,
+			"title": "store",
+			"width": 529,
+			"x": 419,
+			"y": -588
 		}
 	},
 	"roles": [ {
@@ -149,6 +177,21 @@
 	} ],
 	"root": {
 		"children": [ {
+			"children": [],
+			"id": "xiMqxR4QRC5p1yYPKrTMidz4xIyfVXcC",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "peeperIDs"
+			}, {
+				"name": "value",
+				"value": "Sensors.nota_naimad1_swampdota.GetUnitTypeGroup(\"armpeep\")"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
 			"children": [],
 			"id": "bbfYcdD1u1CtSICtaXQdZwqraoHMfazU",
 			"nodeType": "luaCommand",
@@ -225,6 +268,40 @@
 			"scriptName": "store"
 		}, {
 			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "5cZiy4ImrjxA1gi6X18KPeiVmlf1vFYc",
+					"nodeType": "wait",
+					"parameters": [ {
+						"name": "time",
+						"value": 150
+					} ]
+				}, {
+					"children": [],
+					"id": "GWqGPYelOjyDAPc0ypujpXDAfGx0Ey5Z",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "group",
+						"value": "peeperIDs"
+					}, {
+						"name": "positions",
+						"value": "{Vec3(9200, 273, 1000)}"
+					}, {
+						"name": "fight",
+						"value": "false"
+					}, {
+						"name": "allMustSucceed",
+						"value": "false"
+					}, {
+						"name": "scriptName",
+						"value": "nota_naimad1_ctp2.moveUnitGroupToPositions"
+					} ],
+					"scriptName": "nota_naimad1_ctp2.moveUnitGroupToPositions"
+				} ],
+				"id": "F8Do3NBKUgg4TV4neAvgE6zrnhPLyPb6",
+				"nodeType": "sequence",
+				"parameters": []
+			}, {
 				"children": [ {
 					"children": [ {
 						"children": [],

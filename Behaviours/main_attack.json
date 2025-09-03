@@ -13,120 +13,197 @@
 			"height": 90,
 			"title": "luaCondition",
 			"width": 194,
-			"x": 783,
-			"y": -128
+			"x": 1375,
+			"y": -90
 		},
 		"79kwv5C2UZN0o5mlYRMSzBqBzBOj009G": {
 			"height": 94,
 			"title": "store",
 			"width": 624,
-			"x": 936,
-			"y": 17
+			"x": 1165,
+			"y": 34
+		},
+		"7OnYk49mLDR6JJOJKZ6vT12GhsZLavYa": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 1115,
+			"y": 988
 		},
 		"9Zd2nNkuEWc46YalsGjkR0nqhECroTT5": {
 			"height": 128,
 			"title": "nota_naimad1_swampdota.moveUnitGroupAndForget",
 			"width": 404,
-			"x": 1559,
-			"y": 751
+			"x": 1788,
+			"y": 768
 		},
 		"AE4Wtr80RDrytJTZqclKTuSBSU1cqfp5": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 611,
-			"y": 111
+			"x": 840,
+			"y": 128
 		},
 		"AOTjKKTs9krgijxslY8naoP3ORts7zuI": {
 			"height": 59,
 			"title": "sequence",
 			"width": 143,
-			"x": 1343,
-			"y": 658
+			"x": 1572,
+			"y": 675
 		},
 		"DYLMOU0bS5qqZcwfy0QpQn67zPlSMSAC": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 673,
-			"y": 482
+			"x": 902,
+			"y": 499
+		},
+		"FPbtqRc991ZdUMAG7dlbaKRZAcMaFCIt": {
+			"height": 110,
+			"title": "nota_naimad1_swampdota.groupFireAtAndForget",
+			"width": 379,
+			"x": 1741,
+			"y": 438
+		},
+		"FcFJQ5A0FBmYljjWHlNdhFsIboolwPav": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 195,
+			"x": 1105,
+			"y": -164
+		},
+		"GvGagWLZecfx6iPb94DZak3WgcESVKEy": {
+			"height": 110,
+			"title": "nota_naimad1_swampdota.groupFireAtAndForget",
+			"width": 379,
+			"x": 1108,
+			"y": 876
+		},
+		"LVoiZbHEFmsNJd9KimBnnBlSklknsjUy": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 696,
+			"y": -75
 		},
 		"RGsFhwBiIJ88vIbSJvcqnblaaPaMOtJd": {
 			"height": 92,
 			"title": "store",
 			"width": 380,
-			"x": 938,
-			"y": 109
+			"x": 1167,
+			"y": 126
+		},
+		"UPKAV5v2THcgYYOGvojjanWyEqAQZc2o": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 1375,
+			"y": -243
 		},
 		"Xi7UdriUB6zCK7czEgVTmyEsbIJSlldi": {
 			"height": 72,
 			"title": "nota_koprda_samuel_juraj_projekt.BuyUnit",
 			"width": 334,
-			"x": 1071,
-			"y": -122
+			"x": 1632,
+			"y": -53
 		},
 		"Z0S5MFDGw7oyl4ncqjrKKjum21WeJoAL": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 600,
-			"y": -118
+			"x": 889,
+			"y": -74
+		},
+		"a02FUky2P21XRdTmYUKIqRkRhIC4jO4h": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 744,
+			"y": 890
 		},
 		"cKg1LsgrL5hkxRrhGjuCe6S7Sa3gdqOo": {
 			"height": 94,
 			"title": "store",
 			"width": 648,
-			"x": 1564,
-			"y": 545
+			"x": 1793,
+			"y": 562
+		},
+		"fwCVLV9ssLvgvaKW3qmzRFed0q1vdcKA": {
+			"height": 72,
+			"title": "nota_koprda_samuel_juraj_projekt.BuyUnit",
+			"width": 334,
+			"x": 1629,
+			"y": -232
 		},
 		"l9v8uggqmYvpLAKUl6ACcwGgFDPkX7pZ": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 207,
-			"y": 101
+			"x": 436,
+			"y": 118
 		},
 		"o9jEe1Q5G6bnMyUdvzpZGrSoZdvmvDI4": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 457,
-			"y": 113
+			"x": 686,
+			"y": 130
 		},
 		"p4kTJB6JI4PmcxXKrUXsEMs51VcEj5nz": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 369,
-			"x": 885,
-			"y": 474
+			"x": 1114,
+			"y": 491
 		},
 		"poL1xEfeL4Cd9oqFx0g37UXP6h2IXo79": {
 			"height": 92,
 			"title": "store",
 			"width": 392,
-			"x": 938,
-			"y": 202
+			"x": 1167,
+			"y": 219
 		},
 		"qhK0m4DYPrpCL7Ahz3tewHhNqRDiU6AX": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 511,
-			"y": 479
+			"x": 740,
+			"y": 496
+		},
+		"uIhxhEHLzXrtUoYmOmfKSEe4z8g5JCmK": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 899,
+			"y": -355
 		},
 		"vEfbqmjcUr3zkGuzhuJeYMvxCXhrzJ0v": {
 			"height": 94,
 			"title": "store",
 			"width": 513,
-			"x": 928,
-			"y": 347
+			"x": 1157,
+			"y": 364
+		},
+		"vJxrS25j2oUC2JGIhQjlS75CzeKOOGPI": {
+			"height": 94,
+			"title": "store",
+			"width": 511,
+			"x": 1108,
+			"y": 782
+		},
+		"vrM0lus3PXouQNOTkz6peBlPB5rTFCi5": {
+			"height": 66,
+			"title": "sequence",
+			"width": 144,
+			"x": 921,
+			"y": 888
 		},
 		"ycNffx8bjrnEUmqaS14hDHtVy8dvtize": {
 			"height": 108,
 			"title": "store",
 			"width": 714,
-			"x": 1562,
-			"y": 641
+			"x": 1791,
+			"y": 658
 		}
 	},
 	"roles": [ {
@@ -136,31 +213,78 @@
 	"root": {
 		"children": [ {
 			"children": [ {
-				"children": [ {
-					"children": [],
-					"id": "Xi7UdriUB6zCK7czEgVTmyEsbIJSlldi",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "unitName",
-						"value": "\"armmav\""
-					}, {
-						"name": "scriptName",
-						"value": "nota_koprda_samuel_juraj_projekt.BuyUnit"
-					} ],
-					"scriptName": "nota_koprda_samuel_juraj_projekt.BuyUnit"
-				} ],
-				"id": "33BjGUgFTF0vARmIjvCBQBf3nKsLe0nS",
-				"nodeType": "luaCondition",
+				"children": [],
+				"id": "uIhxhEHLzXrtUoYmOmfKSEe4z8g5JCmK",
+				"nodeType": "wait",
 				"parameters": [ {
-					"name": "expression",
-					"value": "global.metal > 401"
-				}, {
-					"name": "repeat",
-					"value": "false"
+					"name": "time",
+					"value": 10
 				} ]
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "fwCVLV9ssLvgvaKW3qmzRFed0q1vdcKA",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "unitName",
+								"value": "\"armmart\""
+							}, {
+								"name": "scriptName",
+								"value": "nota_koprda_samuel_juraj_projekt.BuyUnit"
+							} ],
+							"scriptName": "nota_koprda_samuel_juraj_projekt.BuyUnit"
+						} ],
+						"id": "UPKAV5v2THcgYYOGvojjanWyEqAQZc2o",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "global.metal > 600"
+						}, {
+							"name": "repeat",
+							"value": "false"
+						} ]
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "Xi7UdriUB6zCK7czEgVTmyEsbIJSlldi",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "unitName",
+								"value": "\"armmav\""
+							}, {
+								"name": "scriptName",
+								"value": "nota_koprda_samuel_juraj_projekt.BuyUnit"
+							} ],
+							"scriptName": "nota_koprda_samuel_juraj_projekt.BuyUnit"
+						} ],
+						"id": "33BjGUgFTF0vARmIjvCBQBf3nKsLe0nS",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "global.metal > 401"
+						}, {
+							"name": "repeat",
+							"value": "false"
+						} ]
+					} ],
+					"id": "FcFJQ5A0FBmYljjWHlNdhFsIboolwPav",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "GetTableSize(artys) < 2"
+					}, {
+						"name": "repeat",
+						"value": "false"
+					} ]
+				} ],
+				"id": "Z0S5MFDGw7oyl4ncqjrKKjum21WeJoAL",
+				"nodeType": "repeat",
+				"parameters": []
 			} ],
-			"id": "Z0S5MFDGw7oyl4ncqjrKKjum21WeJoAL",
-			"nodeType": "repeat",
+			"id": "LVoiZbHEFmsNJd9KimBnnBlSklknsjUy",
+			"nodeType": "sequence",
 			"parameters": []
 		}, {
 			"children": [ {
@@ -236,6 +360,24 @@
 					"scriptName": "store"
 				}, {
 					"children": [ {
+						"children": [],
+						"id": "FPbtqRc991ZdUMAG7dlbaKRZAcMaFCIt",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "group",
+							"value": "maverics"
+						}, {
+							"name": "targetPosition",
+							"value": "currentTargetPosition"
+						}, {
+							"name": "isArty",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "nota_naimad1_swampdota.groupFireAtAndForget"
+						} ],
+						"scriptName": "nota_naimad1_swampdota.groupFireAtAndForget"
+					}, {
 						"children": [ {
 							"children": [],
 							"id": "cKg1LsgrL5hkxRrhGjuCe6S7Sa3gdqOo",
@@ -296,7 +438,7 @@
 					"nodeType": "luaCondition",
 					"parameters": [ {
 						"name": "expression",
-						"value": "#maverics >= 11 or currentTargetName == \"corfus\""
+						"value": "#maverics >= 10 or currentTargetName == \"corfus\""
 					}, {
 						"name": "repeat",
 						"value": "false"
@@ -307,6 +449,57 @@
 				"parameters": []
 			} ],
 			"id": "qhK0m4DYPrpCL7Ahz3tewHhNqRDiU6AX",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "vJxrS25j2oUC2JGIhQjlS75CzeKOOGPI",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "artys"
+					}, {
+						"name": "value",
+						"value": "Sensors.nota_naimad1_swampdota.GetUnitTypeGroup(\"armmart\")"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "GvGagWLZecfx6iPb94DZak3WgcESVKEy",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "group",
+						"value": "artys"
+					}, {
+						"name": "targetPosition",
+						"value": "currentTargetPosition"
+					}, {
+						"name": "isArty",
+						"value": "true"
+					}, {
+						"name": "scriptName",
+						"value": "nota_naimad1_swampdota.groupFireAtAndForget"
+					} ],
+					"scriptName": "nota_naimad1_swampdota.groupFireAtAndForget"
+				}, {
+					"children": [],
+					"id": "7OnYk49mLDR6JJOJKZ6vT12GhsZLavYa",
+					"nodeType": "wait",
+					"parameters": [ {
+						"name": "time",
+						"value": 20
+					} ]
+				} ],
+				"id": "vrM0lus3PXouQNOTkz6peBlPB5rTFCi5",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "a02FUky2P21XRdTmYUKIqRkRhIC4jO4h",
 			"nodeType": "repeat",
 			"parameters": []
 		} ],

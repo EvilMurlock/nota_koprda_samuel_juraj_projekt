@@ -1,0 +1,141 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 168,
+			"width": 231
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "lanePoints"
+	}, {
+		"command": "Variable",
+		"name": "metalRadius"
+	}, {
+		"command": "Variable",
+		"name": "safeRadius"
+	}, {
+		"command": "Variable",
+		"name": "farsGroup"
+	} ],
+	"outputs": [],
+	"properties": {
+		"5d4eNwFXi5L0MqDWlb3f8TfZKCNMej8W": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 277,
+			"y": 38
+		},
+		"7TRAEVCRoXrQ7XRjpmDhD8fUakDdCdHY": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 454,
+			"y": 38
+		},
+		"9FetFop1Un30gwTlYuX6MDbmCn6uDOeW": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 669,
+			"y": 283
+		},
+		"9j5GsZYfhOdFJyBBrfVPh6xxc8oyg6Ey": {
+			"height": 94,
+			"title": "store",
+			"width": 998,
+			"x": 662,
+			"y": -58
+		},
+		"kh0wRZoBD48ofmEwxC7qBRgiyX4Inr65": {
+			"height": 94,
+			"title": "store",
+			"width": 605,
+			"x": 663,
+			"y": 50
+		},
+		"soFc6ILZKNpT5mbq0tgsliNc3FNBNlW2": {
+			"height": 130,
+			"title": "nota_naimad1_swampdota.moveUnitGroupAndForget",
+			"width": 404,
+			"x": 662,
+			"y": 155
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "9j5GsZYfhOdFJyBBrfVPh6xxc8oyg6Ey",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "allLaneMetal"
+				}, {
+					"name": "value",
+					"value": "Sensors.nota_samuelmintal_exam.get_all_metal_positions_on_line(lanePoints, metalRadius)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "kh0wRZoBD48ofmEwxC7qBRgiyX4Inr65",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "reclaimPos"
+				}, {
+					"name": "value",
+					"value": "Sensors.nota_naimad1_swampdota.GetNearestThrash(allLaneMetal, safeRadius)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "soFc6ILZKNpT5mbq0tgsliNc3FNBNlW2",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "group",
+					"value": "farsGroup"
+				}, {
+					"name": "positions",
+					"value": "{reclaimPos}"
+				}, {
+					"name": "fight",
+					"value": "false"
+				}, {
+					"name": "reclaim",
+					"value": "true"
+				}, {
+					"name": "scriptName",
+					"value": "nota_naimad1_swampdota.moveUnitGroupAndForget"
+				} ],
+				"scriptName": "nota_naimad1_swampdota.moveUnitGroupAndForget"
+			}, {
+				"children": [],
+				"id": "9FetFop1Un30gwTlYuX6MDbmCn6uDOeW",
+				"nodeType": "wait",
+				"parameters": [ {
+					"name": "time",
+					"value": 5
+				} ]
+			} ],
+			"id": "7TRAEVCRoXrQ7XRjpmDhD8fUakDdCdHY",
+			"nodeType": "sequence",
+			"parameters": []
+		} ],
+		"id": "5d4eNwFXi5L0MqDWlb3f8TfZKCNMej8W",
+		"nodeType": "repeat",
+		"parameters": []
+	}
+}
