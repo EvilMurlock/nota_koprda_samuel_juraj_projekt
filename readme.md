@@ -1,4 +1,4 @@
-nota_koprda_samuel_juraj_projekt 1.0.3
+nota_koprda_samuel_juraj_projekt 2.0.0
 ====
 
 * [dependencies](./dependencies.json)
